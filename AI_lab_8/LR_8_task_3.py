@@ -1,5 +1,4 @@
 import cv2
-
 img = cv2.imread("tkachuk_full.jpg")
 print(img.shape)
 imgResize = cv2.resize(img, (1000, 450))
